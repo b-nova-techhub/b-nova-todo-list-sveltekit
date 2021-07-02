@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>b-nova To Do list</title>
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-886d3002.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-09db1235.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-61f673f8.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-e28be450.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-886d3002.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "always",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-61f673f8.js"),
+						import("/./_app/pages/index.svelte-e28be450.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<h1>b-nova To Do List</h1>
+
+
+<nav><a href="/">Home</a>
+	<a href="/todos">To Dos</a></nav>
+
+<h2>Welcome to the b-nova SvelteKit To Do List</h2>
+
+<footer><a href="https://b-nova.com" target="_blank">b-nova.com</a></footer>
+
+
+
+	
+</div>
+	</body>
+</html>

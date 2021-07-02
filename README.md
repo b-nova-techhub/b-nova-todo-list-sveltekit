@@ -1,4 +1,4 @@
-# create-svelte
+# b-nova-todo-list-sveltekit
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
@@ -36,4 +36,3 @@ npm run build
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
-# b-nova-todo-list-sveltekit
